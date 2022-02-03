@@ -1,0 +1,14 @@
+[user]
+	name = Carol Clark
+	email = carolclark@cox.net
+[init]
+	defaultBranch = main
+[merge]
+	ff = no
+	commit = no
+[pull]
+	ff = yes
+[core]
+	editor = atom
+[credential]
+	helper = osxkeychain
