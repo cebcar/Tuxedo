@@ -1,0 +1,1 @@
+When a commit on the master branch is ready for release, create a tag on that commit that identifies the release. 

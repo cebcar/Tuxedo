@@ -1,0 +1,76 @@
+Tidbits
+- ZenHub
+  - delete epic: remove its issues first
+  - pricing: from [ZenHub Pricing](https://www.zenhub.com/pricing):
+    - "Who needs to pay for ZenHub<br/>
+      ZenHub is free to use on public, personal, and academic repositories.<br/>
+      For teams using private repositories, ZenHub is just ten dollars US, per user, per month."
+- ￼IntelliJ
+  - adopt copyright patterns and updating￼
+  - Shortcuts
+    - rSpace x2 - complete method call￼
+    - oReturn add import line￼￼
+  - F12 | last tool window￼
+    - csF12 - close current tool window￼
+    - sEsc | Hide active tool window￼
+    - Tools
+    - Presentation settings (looks like Eye)
+      - Column selection: remove author; add sha
+  - Highlight Usages in File
+    - scF7 to highlight
+    - c/scG to navigate among selected usages
+    - &lt;esc&gt; to remove highlighting
+- Stash to be recovered: stash name "&lt;parentBranchName&gt;+&lt;desc&gt;"
+- docs
+  - sidebar ￼table of contents￼
+  - Responsive style
+    - Cayman is responsive; maybe Cobalt￼￼
+  - Workflows￼
+    - git workflow: add
+    - inspection￼; tag
+- TextMate.
+  - rsH - convert to HTML￼￼
+  - rocP | print
+  - theme Dawn (printer friendly?)
+- System preferences
+  - ￼ remove all rename shortcuts rArrow
+    - ￼ they conflict with something in WebStorm
+- FileMaker
+  - ￼ to compare folders: select folder in open dialogue￼)
+  - arrow: select left or right code￼
+- Duck duck go
+  - Open link in a new tag: ?
+- git
+  - for-each-ref
+- JetBrains apps at /Applications
+- http://instantink.com/chat
+- DevOps CC
+  - To print a markdown document:
+    - Add print button to document
+      - ```<button onclick="window.print()">Print Button</button>```
+    - copy document content
+    - Paste[Convert Markdown to HTML](https://markdowntohtml.com)
+    - Print with `print` button
+- Safari
+  - Now: Preferences | Search: Bing
+  - Prefs General: Favorites shows: create custom folder for oc0-9 selection
+- iOS screen shot
+  - Top button and Home button
+    - press together; quickly release
+  - Image is in Photos
+- GitHub: access from iOS
+  - from iOS, all BookmarksNinja links to cebcar go to the iOS ￼App for GitHub
+  - to directly access github.com/cebcar, use the `cebcar` link on the Favorites bar￼￼￼
+-  ### FileMerge **Shortcuts**: <br/>
+-  | Group | Action | Shortcut |
+-  |---|---|---|
+- -| Setup | specify files | type or drop |
+- +| Setup | open comparison | cO |
+- +| | specify files | type; drop; click button to select |
+-  | Merge | diff this item | &lt;return&gt; |
+-  | | choose left/right | &lt;l/r arrow&gt; |
+-  | | next/previous change | &lt;d/u arrow&gt; |
+
+# .idea/*.iml
+.idea/**/workspace.xml	
+
