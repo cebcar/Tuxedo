@@ -52,6 +52,7 @@ IntelliJ supports embedding formatted TODO comments in document
 | | #DDAB8C &nbsp;&nbsp;<span style="background-color: #DDAB8C">&nbsp;&nbsp;&nbsp;&nbsp;</span> | docs | technical documentation  |
 | | #AC96F1 &nbsp;&nbsp;<span style="background-color: #AC96F1">&nbsp;&nbsp;&nbsp;&nbsp;</span> | tools | developer tools  |
 | | #FFC0CB &nbsp;&nbsp;<span style="background-color: #FFC0CB">&nbsp;&nbsp;&nbsp;&nbsp;</span> | education | continuing developer education |
+| | #E919AC &nbsp;&nbsp;<span style="background-color: #E919AC">&nbsp;&nbsp;&nbsp;&nbsp;</span> | afk | can be worked on AFK |
 | Epics | | | |
 | | #3E4B9E &nbsp;&nbsp;<span style="background-color: #000064">&nbsp;&nbsp;&nbsp;&nbsp;</span> | Epic | Standard Epic |
 | | #A02020 &nbsp;&nbsp;<span style="background-color: #A02020">&nbsp;&nbsp;&nbsp;&nbsp;</span> | Roadmap | Roadmap Project |
