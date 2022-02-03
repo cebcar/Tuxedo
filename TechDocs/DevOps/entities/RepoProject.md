@@ -64,14 +64,12 @@ IntelliJ supports embedding formatted TODO comments in document
 | | #7A50C4 &nbsp;&nbsp;<span style="background-color: #7A50C4">&nbsp;&nbsp;&nbsp;&nbsp;</span> | devAccess | assistive support for developer |
 | | #C2E0C6 &nbsp;&nbsp;<span style="background-color: #C2E0C6">&nbsp;&nbsp;&nbsp;&nbsp;</span> | openSource | |
 | Platforms | | | |
-| | #E99695 &nbsp;&nbsp;<span style="background-color: #E99695">&nbsp;&nbsp;&nbsp;&nbsp;</span> | macOS | mac platform |
+| | #E99695 &nbsp;&nbsp;<span style="background-color: #E99695">&nbsp;&nbsp;&nbsp;&nbsp;</span> | macos | macos platform |
 | | #4682B4 &nbsp;&nbsp;<span style="background-color: #4682B4">&nbsp;&nbsp;&nbsp;&nbsp;</span> | ios | ios platform |
 | | #0B5BE0 &nbsp;&nbsp;<span style="background-color: #0B5BE0">&nbsp;&nbsp;&nbsp;&nbsp;</span> | web | WorldWide Web |
 | Languages | | | |
 | | #AEE9A9 &nbsp;&nbsp;<span style="background-color: #AEE9A9">&nbsp;&nbsp;&nbsp;&nbsp;</span> | javascript | javascript |
 | | #FBCA04 &nbsp;&nbsp;<span style="background-color: #FBCA04">&nbsp;&nbsp;&nbsp;&nbsp;</span> | shell | normally zsh |
-| | #C67596 &nbsp;&nbsp;<span style="background-color: #C67596">&nbsp;&nbsp;&nbsp;&nbsp;</span> | HTML | HTML / Emmet |
-| | #77ADD1 &nbsp;&nbsp;<span style="background-color: #77ADD1">&nbsp;&nbsp;&nbsp;&nbsp;</span> | css | css / less |
 | Issue to Fix | | | |
 | | #E4E669 &nbsp;&nbsp;<span style="background-color: #E4E669">&nbsp;&nbsp;&nbsp;&nbsp;</span> | fix issue | note needed changes|
 | | #D9D5D4 &nbsp;&nbsp;<span style="background-color: #A59878">&nbsp;&nbsp;&nbsp;&nbsp;</span> | duplicate | issue or pull request already exists |
