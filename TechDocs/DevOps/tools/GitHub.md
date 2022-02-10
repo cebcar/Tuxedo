@@ -36,6 +36,7 @@ The access token represents the authorization of a specific application to acces
 Access tokens must be kept confidential in transit and in storage.
 ```
 
+We use Personal Access Tokens for:               
   - [access for products](https://docs.github.com/en/developers/apps/about-apps#about-oauth-apps), including JetBrains apps, to our repositories, and
   - interaction with GitHub via automated scripts; see [Git automation with OAuth tokens](https://docs.github.com/en/github/extending-github/git-automation-with-oauth-tokens)
 
