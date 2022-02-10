@@ -52,6 +52,7 @@ IntelliJ supports embedding formatted TODO comments in document
 | | #DDAB8C &nbsp;&nbsp;<span style="background-color: #DDAB8C">&nbsp;&nbsp;&nbsp;&nbsp;</span> | docs | technical documentation  |
 | | #AC96F1 &nbsp;&nbsp;<span style="background-color: #AC96F1">&nbsp;&nbsp;&nbsp;&nbsp;</span> | tools | developer tools  |
 | | #FFC0CB &nbsp;&nbsp;<span style="background-color: #FFC0CB">&nbsp;&nbsp;&nbsp;&nbsp;</span> | education | continuing developer education |
+| | #E919AC &nbsp;&nbsp;<span style="background-color: #E919AC">&nbsp;&nbsp;&nbsp;&nbsp;</span> | wlr | can be worked on in living room |
 | Epics | | | |
 | | #3E4B9E &nbsp;&nbsp;<span style="background-color: #000064">&nbsp;&nbsp;&nbsp;&nbsp;</span> | Epic | Standard Epic |
 | | #A02020 &nbsp;&nbsp;<span style="background-color: #A02020">&nbsp;&nbsp;&nbsp;&nbsp;</span> | Roadmap | Roadmap Project |
@@ -70,6 +71,8 @@ IntelliJ supports embedding formatted TODO comments in document
 | Languages | | | |
 | | #AEE9A9 &nbsp;&nbsp;<span style="background-color: #AEE9A9">&nbsp;&nbsp;&nbsp;&nbsp;</span> | javascript | javascript |
 | | #FBCA04 &nbsp;&nbsp;<span style="background-color: #FBCA04">&nbsp;&nbsp;&nbsp;&nbsp;</span> | shell | normally zsh |
+| | #C67596 &nbsp;&nbsp;<span style="background-color: #C67596">&nbsp;&nbsp;&nbsp;&nbsp;</span> | HTML | HTML / Emmet |
+| | #77ADD1 &nbsp;&nbsp;<span style="background-color: #77ADD1">&nbsp;&nbsp;&nbsp;&nbsp;</span> | css | css / less |
 | Issue to Fix | | | |
 | | #E4E669 &nbsp;&nbsp;<span style="background-color: #E4E669">&nbsp;&nbsp;&nbsp;&nbsp;</span> | fix issue | note needed changes|
 | | #D9D5D4 &nbsp;&nbsp;<span style="background-color: #A59878">&nbsp;&nbsp;&nbsp;&nbsp;</span> | duplicate | issue or pull request already exists |
