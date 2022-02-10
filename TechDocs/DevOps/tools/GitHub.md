@@ -10,55 +10,22 @@ WebApp @ https://github.com<br/>
 ## Using GitHub
 
 ### Create New Repository
-- GitHub:  New Repository
-  - GitHub : ‘cebcar’ : New
-    - supply repo Name and Description
-    - make repository “Public”
-    - do not add .gitignore
-    - initialize repo with a README
-    - add license, normally MIT
-  - create
+GitHub : ‘cebcar’ : New
+- supply repo Name and Description
+- make repository “Public”
+- do not add .gitignore
+- initialize repo with a README
+- add license, normally MIT <br><br>
 
-- edit Repository Settings
-  - use cebcar-settings - see github-repository-settings below(@link)<br/><br/>
+- Merge
+  - [+] Allow merge commits
+  - [-] Allow squash merging
+  - [-] Allow rebase merging <br><br>
 
-### GitHub Repository Settings
-*categories shown with no content are not now being used*
-- Options
-  - Settings
-    - if public, can add social image (photo or GitHub avatar?)<br/><br/>
-  - Features (cebcar settings)
-    - [-] **Wikis**
-    - [+] **Restrict editing to users in teams with push access only**
-    - [+] **Issues**
-    - [-] **Allow Forking**
-    - [-] **Sponsorships**
-    - [-] **Projects** *projects provided by ZenHub*
-    - [-] **Preserve this repository** *intended for long-term preservation of important open-source code*
-    - [+] **Table of contents** *autogenerate TOC for markdown files*
-    - [-] **Discussions**<br/><br/>
-
-  - Merge Button (cebcar settings)
-      - [+] Allow merge commits
-      - [-] Allow squash merging
-      - [-] Allow rebase merging
-      - [-] Allow auto-merge
-      - [-] Automatically delete head branches<br/><br/>
-  - we do not now use Archives or GitHub Pages<br/><br/>
-- Manage Access
-  - invite collaborators here
-- Security and Analysis
-  - security analysis for project dependencies; add if and when indicated
-- Branches
-  - see [Defining the mergeability of pull requests](https://docs.github.com/en/github/administering-a-repository/defining-the-mergeability-of-pull-requests)
-- Webhooks
-- Notifications
-- Integrations
-  - set up GitHub Learning Lab from here
-- Deploy keys
-- Actions
-  - scriptable CI Actions
-- Secrets
+- repository settings:
+  - turn off:
+    - Projects; we use ZenHub projects
+    - Preserve this repository; intended for long-term preservation of shared open-source code <br><br>
 
 ### OAuth Tokens
 *from [Access Tokens @ oauth.com](https://www.oauth.com/oauth2-servers/access-tokens/)*
@@ -69,7 +36,6 @@ The access token represents the authorization of a specific application to acces
 Access tokens must be kept confidential in transit and in storage.
 ```
 
-We use Personal Access Tokens for:
   - [access for products](https://docs.github.com/en/developers/apps/about-apps#about-oauth-apps), including JetBrains apps, to our repositories, and
   - interaction with GitHub via automated scripts; see [Git automation with OAuth tokens](https://docs.github.com/en/github/extending-github/git-automation-with-oauth-tokens)
 
