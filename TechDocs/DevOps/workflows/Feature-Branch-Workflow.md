@@ -1,23 +1,22 @@
 ## Feature Branch Workflow
 
-- new Task/branch
-  - view and cleanup branches (rV 1), stashes(rV upx2, changelists(osT)
-  - ~~***Update Branches***~~
-  - ~~if new Task:~~ create new Task; push
-  - ~~else: switch to existing Task; ***Update Branches***; push~~
-    <br/><br/>
+- new branch
+  - view / cleanup branches and stashes
+  - ***Update Branches***
+  - create and push new branch | or | switch to existing branch<br/><br/>
 
-- until **Task/branch** work complete {
+- until branch work complete {
   - until **push Main** {
     - until **merge to Main** {
-<br/><br/>
-      - ***Update Branches***
+
       - while **push branch** {
-      - verify matching active branch
+        - ***Update Branches***
+        - verify matching active branch
         - while **commit** {
           - while **cache** {
             - test / code / test
             - diff local changes
+            - save all (ocS)
             - add changed files as indicated (ocA)
           - } **cache**
           - Inspect
@@ -37,7 +36,7 @@
 <br/><br>
 - } **Task/branch**: close active Task; switch to default Task, removing just-closed changelist
 
-#### Update Branches
+#### Update Branches (terminal)
 *Update Main Branch* from origin/main
 - view git repo and branch status (`gsb`); verify ready to proceed
 - checkout main; fetch; if changes: `difftool main`; `merge --no-ff main`; push; continue
