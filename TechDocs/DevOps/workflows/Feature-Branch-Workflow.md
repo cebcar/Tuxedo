@@ -3,7 +3,7 @@
 - new branch
   - view / cleanup branches and stashes
   - ***Update Branches***
-  - create and push new branch | or | switch to existing branch<br/><br/>
+  - ~~switch to existing branch | or |create and push new branch~~<br/><br/>
 
 - until branch work complete {
   - until **push Main** {
@@ -17,12 +17,12 @@
             - test / code / test
             - diff local changes
             - save all (ocS)
-            - add changed files as indicated (ocA)
+            - add changed files as indicated
           - } **cache**
-          - Inspect
-          - Compare with original (diff)
+          - ~~Inspect~~
+          - diff with original
         - } **commit**: commit changes
-        - ~~***Update Branches***~~
+
       - } **push branch**: checkout &lt;branch&gt;; Compare With &lt;remote&gt;; push &lt;branch&gt;
 <br/><br/>
     - ~~***Update Branches***~~
@@ -34,7 +34,7 @@
     - } **merge**
   - } **push Main**
 <br/><br>
-- } **Task/branch**: close active Task; switch to default Task, removing just-closed changelist
+- } **branch**: close branch; remove if indicated
 
 #### Update Branches (terminal)
 *Update Main Branch* from origin/main
