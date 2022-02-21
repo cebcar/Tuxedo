@@ -1,50 +1,49 @@
 ## Feature Branch Workflow
 
-- new Task/branch
-  - view and cleanup branches (rV 1), stashes(rV upx2, changelists(osT)
-  - ~~***Update Main Branch***~~
-  - ~~if new Task:~~ create new Task; push
-  - ~~else: switch to existing Task; ***Update &lt;WorkingBranch&gt;***; push~~
-    <br/><br/>
-
-- until **Task/branch** work complete {
+- new branch
+  - view / cleanup branches and stashes; view log(s)
+  - ***Update Branches***
+  - switch to existing branch~~ | or | create and push new branch~~<br/><br/>
+    - ~~push: git push -u origin &lt;branch&gt;~~
+<br><br>
+- until branch work complete {
   - until **push Main** {
     - until **merge to Main** {
-<br/><br/>
-      - ***Update &lt;workingBranch&gt;***
+
       - while **push branch** {
-      - verify matching active branch
+        - ***Update Branches***
+        - verify matching active branch
         - while **commit** {
           - while **cache** {
             - test / code / test
             - diff local changes
-            - add changed files as indicated (ocA)
+            - save all (ocS)
+            - add changed files as indicated
           - } **cache**
-          - Inspect
-          - Compare with original (diff)
+          - ~~Inspect~~
+          - diff with original
         - } **commit**: commit changes
-        - ~~**Update &lt;workingBranch&gt;**~~
+
       - } **push branch**: checkout &lt;branch&gt;; Compare With &lt;remote&gt;; push &lt;branch&gt;
 <br/><br/>
-    - ~~***Update &lt;workingBranch&gt;***~~
+    - ~~***Update Branches***~~
     - ~~(*Pull Request goes here*)~~
-    - ~~***Update &lt;workingBranch&gt;***~~
+    - ~~***Update Branches***~~
     - } **merge to `main`** *merge &lt;branch&gt; into main line of development*
-      - checkout main; preview merge: &lt;branch-to-merge&gt;: Show Differences
+      - checkout branch; git repo, branches, status (`gsb`)
+      - checkout main; preview merge: &lt;branch-to-merge&gt;: `git difftool $tb`
       - merge to main: `git merge --no-ff &lt;branch&gt;`
     - } **merge**
   - } **push Main**
 <br/><br>
-- } **Task/branch**: close active Task; switch to default Task, removing just-closed changelist
+- } **branch**: close branch; remove if indicated
 
-#### Procedures (inactive)
+#### Update Branches (terminal)
+*Update Main Branch* from origin/main
+- view git repo, branches, status (`gsb`); verify ready to proceed
+- checkout main; fetch; if changes: `difftool main`; `merge --no-ff main`; push; continue
 
-*Update main branch* from origin/main
-- checkout `main` branch; git fetch (rcF); if changelists clean: done
-- else: origin/main: Diff with Working Tree to get changes(?); commit; push main
+*Update Working Branch*: if working branch active and main update was not empty:
+- co &lt;working&gt;; `difftool &lt;working&gt;`; `merge --no-ff <branch>`; commit; push
 
-*Update &lt;workingBranch&gt;* from origin/main
-- *Update Main Branch*; if changelists were clean: done
-- else: checkout &lt;workingBranch&gt;; preview merge (main:cw); `git merge --no-ff main`; commit; push
-
-<button onclick="window.print()">`Print Button`</button>
+```<button onclick="window.print()">Print Button</button>```
