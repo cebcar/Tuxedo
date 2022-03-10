@@ -3,8 +3,8 @@
 - new branch
   - view / cleanup branches and stashes; view log(s)
   - ***Update Branches***
-  - switch to existing branch~~ | or | create and push new branch~~<br/><br/>
-    - ~~push: git push -u origin &lt;branch&gt;~~
+  - switch to existing branch~~ | or | create new branch~~
+    - push: git push -u origin &lt;branch&gt;<br/><br/>
 <br><br>
 - until branch work complete {
   - until **push Main** {
@@ -26,7 +26,7 @@
 
       - } **push branch**: checkout &lt;branch&gt;; Compare With &lt;remote&gt;; push &lt;branch&gt;
 <br/><br/>
-    - ~~***Update Branches***~~
+    - ***Update Branches***
     - ~~(*Pull Request goes here*)~~
     - ~~***Update Branches***~~
     - } **merge to `main`** *merge &lt;branch&gt; into main line of development*
