@@ -3,8 +3,8 @@
 - new branch
   - view / cleanup branches and stashes; view log(s)
   - ***Update Branches***
-  - switch to existing branch~~ | or | create new branch~~
-    - push: git push -u origin &lt;branch&gt;<br/><br/>
+  - create new branch | or | switch to existing branch
+  - push: git push -u origin &lt;branch&gt;<br/><br/>
 <br><br>
 - until branch work complete {
   - until **push Main** {
