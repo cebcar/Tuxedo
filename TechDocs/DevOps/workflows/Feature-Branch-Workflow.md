@@ -5,7 +5,7 @@
   - ***Update Branches***
   - create new branch | or | switch to existing branch
   - push: git push -u origin &lt;branch&gt;<br/><br/>
-<br><br>
+
 - until branch work complete {
   - until **push Main** {
     - until **merge to Main** {
