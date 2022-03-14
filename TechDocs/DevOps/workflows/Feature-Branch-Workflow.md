@@ -48,4 +48,4 @@ Update Main Branch
 Update Working Branch: if working branch active and main update was not empty:
 - co &lt;working&gt;; `difftool &lt;working&gt;`; `merge --edit --no-ff <branch>`; commit; push
 
-```<button onclick="window.print()">Print Button</button>```
+<button onclick="window.print()">Print Button</button>
