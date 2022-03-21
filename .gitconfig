@@ -9,6 +9,6 @@
 [pull]
 	ff = yes
 [core]
-	editor = atom --wait
+	editor = "atom --wait"
 [credential]
 	helper = osxkeychain
