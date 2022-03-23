@@ -1,12 +1,12 @@
 ## Feature Branch Workflow
 
 - new branch
-  - view / cleanup branches and stashes; view log(s)
+  - review/cleanup branches(`gsb`) and stashes; review log
   - ***Update Branches***
-  - create new branch | or | switch to existing branch
-  - push: git push -u origin &lt;branch&gt;<br/><br/>
+  - create new working branch ~~ | or | switch to existing branch~~
+  - push: `git push -u origin <wb>`<br/><br/>
 
-- until branch work complete {
+- until working branch work complete {
   - until **push Main** {
     - until **merge to Main** {
 
@@ -17,35 +17,30 @@
           - while **cache** {
             - test / code / test
             - diff local changes
-            - save all (ocS)
-            - add changed files as indicated
+            - save all (ocS); stage as indicated
           - } **cache**
           - ~~Inspect~~
           - diff with original
-        - } **commit**: commit changes
+        - } **commit**: verify target branch; commit changes
 
-      - } **push branch**: checkout &lt;branch&gt;; Compare With &lt;remote&gt;; push &lt;branch&gt;
+      - } **push branch**
 <br/><br/>
     - ***Update Branches***
     - ~~(*Pull Request goes here*)~~
     - ~~***Update Branches***~~
-    - } **merge to `main`** *merge &lt;branch&gt; into main line of development*
-      - checkout branch; review repo, branches, status (`gsb`)
-      - checkout main; preview merge: &lt;branch-to-merge&gt;: `git difftool $tb`
-      - merge to main: `git merge --edit --no-ff &lt;branch&gt;`
+    - } **merge to `main`** *merge &lt;wb&gt; into main line of development*
+      - checkout &lt;wb&gt;; review repo, branches, status (`gsb`)
+      - *preview merge*: `difftool main`
+      - `checkout main; merge --edit --no-ff <wb>`<br><br>
     - } **merge**
   - } **push Main**
-<br/><br>
-- } **branch**: close branch; remove if indicated
+- } **Branch**
 
-#### Update Branches from origin/main
-Update Main Branch
-- view git repo, branches, status (`gsb`); verify ready to proceed
-- checkout main; fetch
-- if no changes: done with Update Branches
-- else: `difftool main`; `merge --edit --no-ff main`; push; continue
-
-Update Working Branch: if working branch active and main update was not empty:
-- co &lt;working&gt;; `difftool &lt;working&gt;`; `merge --edit --no-ff <branch>`; commit; push
+#### Update Branches
+- review git repo, branches, status (`gsb`)
+- `checkout main; fetch`
+- if changes:
+  - on main: `difftool; commit`
+  - `checkout <wb>; difftool main; merge --edit --no-ff main; push`
 
 <button onclick="window.print()">Print Button</button>
