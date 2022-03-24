@@ -38,9 +38,9 @@
 
 #### Update Branches
 - review git repo, branches, status (`gsb`)
-- `checkout main; fetch`
+- checkout main; fetch
 - if changes:
-  - on main: `difftool; commit`
+  - on main: diff; commit
   - `checkout <wb>; difftool main; merge --edit --no-ff main; push`
 
 <button onclick="window.print()">Print Button</button>
