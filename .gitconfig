@@ -10,6 +10,6 @@
 [pull]
 	ff = yes
 [core]
-	editor = "atom --wait"
+  editor = vim
 [credential]
 	helper = osxkeychain
