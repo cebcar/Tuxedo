@@ -10,6 +10,6 @@
 [pull]
 	ff = yes
 [core]
-  editor = vim
+	editor = vim
 [credential]
 	helper = osxkeychain
