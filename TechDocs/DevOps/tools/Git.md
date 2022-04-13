@@ -49,7 +49,7 @@ git core.attributesfile:
 
 ### Stashes
 - stash away the changes in a working directory
-> git stash [push] [-m message]
+> git stash [push -m message]
 
 - list stashes; also shows '@{n}' argument for use below
 > git stash list
