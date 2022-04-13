@@ -1,9 +1,24 @@
 # Atom
 
+## Policies
+
+### Git Management with Atom and iTerm2
+- Operations on a single branch,  are handled within Atom.
+  - includes
+    - create local branch with remote tracking branch
+    - commit, including diff
+    - push branch to its remote repository
+- All merging, along with its safety protocols, is handled using iTerm2.
+- Most troubleshooting is normally handled within iTerm2.
+
 ## > Configuring Atom <
 
 - git config
   - installs its own gitconfig at git/config<br><br>
+
+## > Atom Keymap <
+ - Temporary Status 04.04.22
+   - currently, printed for personal use from a copyrighted set of basic shortcuts
 
 ## > Atom Packages <
 
