@@ -18,6 +18,11 @@ shell tool @ /usr/bin/git<br/>
 ```
 - then use [gitignore.io](http://gitignore.io) to add additional items, including macos and JetBrains
 
+#### core.attributesfile
+git core.attributesfile:
+- relevant when there are multiple git base configurations
+- see end of "DESCRIPTION" on gitattributes Manual page
+
 ### **Git Customization &amp; Automation**<br/>
 
 ### **Git Shortcuts**<br/>
