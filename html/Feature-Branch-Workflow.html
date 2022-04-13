@@ -39,8 +39,6 @@
 </ul>
 </li>
 <li><strong><em>Update Branches</em></strong></li>
-<li><del>(<em>Pull Request goes here</em>)</del></li>
-<li><del><strong><em>Update Branches</em></strong></del></li>
 <li>} <strong>merge to <code>main</code></strong> <em>merge &lt;wb&gt; into main line of development</em><ul>
 <li>checkout &lt;wb&gt;; review repo, branches, status (<code>gsb</code>)</li>
 <li><em>preview merge</em>: <code>difftool main</code></li>
@@ -58,9 +56,9 @@
 <h4 id="update-branches">Update Branches</h4>
 <ul>
 <li>review git repo, branches, status (<code>gsb</code>)</li>
-<li><code>checkout main; fetch</code></li>
+<li>checkout main; fetch</li>
 <li>if changes:<ul>
-<li>on main: <code>difftool; commit</code></li>
+<li>on main: diff; commit</li>
 <li><code>checkout &lt;wb&gt;; difftool main; merge --edit --no-ff main; push</code></li>
 </ul>
 </li>
