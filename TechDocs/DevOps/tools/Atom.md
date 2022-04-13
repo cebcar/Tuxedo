@@ -1,5 +1,9 @@
 # Atom
 
+## Atom difftool
+Whitespace changes may not be clear from Atom's automatic commit diff display.
+Use another tool (FileMerge works) to find out what's going on.
+
 ## Policies
 
 ### Git Management with Atom and iTerm2
