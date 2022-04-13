@@ -24,7 +24,6 @@
 
 [script](./#script)<br>
 [tree-view](./#tree-view)<br>
-[git-merge](#./git-merge)<br>
 
 ## script
 *initially installed*
