@@ -50,6 +50,9 @@ git core.attributesfile:
 - show message for specified commit
 > git log --format=%B -n 1 &lt;hash&gt;
 
+- squash commits
+> git rebase --interactive HEAD~n
+
 ### Stashes
 - stash away the changes in a working directory
 > git stash [push -m message]
@@ -82,6 +85,8 @@ git core.attributesfile:
 > git rebase -i (--interactive)
 
 ### Merge
+- see also [Git Tools - Advanced Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
+
 - Revert just-committed merge
 > git revert -m 1 &lt;merge-commit-hash&gt;
 

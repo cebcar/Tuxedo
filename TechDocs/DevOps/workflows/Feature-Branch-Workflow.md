@@ -38,7 +38,7 @@
 - review git repo, branches, status (`gsb`)
 - checkout main; fetch
 - if changes:
-  - update local main: `diff; commit`
-  - `checkout <wb>; difftool main; merge --edit --no-ff main; push`
+  - update local main: `diff; commit`; use multiple commits if indicated
+  - update &lt;wb&gt; from main: `checkout <wb>; difftool main; merge --edit --no-ff main; push`
 
 <button onclick="window.print()">Print Button</button>
