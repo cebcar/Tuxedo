@@ -35,7 +35,7 @@ git core.attributesfile:
 - Push branch to upstream
 > git push --set-upstream (-u) origin &lt;branch&gt;
 
-### Tagging
+### Tags
 - create annotated tag:
 > git tag -a &lt;tagName&gt; -m &lt;comment&gt;
 
@@ -45,6 +45,10 @@ git core.attributesfile:
 
 - list branches sorted by date
 > git for-each-ref --sort=committerdate refs/heads/ --format='%(committerdate:short) %(refname:short)'
+
+### Commits
+- show message for specified commit
+> git log --format=%B -n 1 &lt;hash&gt;
 
 ### Stashes
 - stash away the changes in a working directory
@@ -80,6 +84,28 @@ git core.attributesfile:
 ### Merge
 - Revert just-committed merge
 > git revert -m 1 &lt;merge-commit-hash&gt;
+
+- **diff3**
+We use the `diff3` style of conflict markers
+- shows all 4 of before/after, ours/theirs
+> git config merge.conflictstyle diff3
+
+  sample output:
+  ```plaintext
+  <<<<<<< ours
+    puts 'hola world'
+  ||||||| base
+    puts 'hello world'
+  ======
+    puts 'hello mundo'
+  >>>>>>> theirs
+  ```
+
+- show the commits in either side or conflict
+Show the commits in either side of the merge that touches a file that’s currently conflicted
+> git log --oneline --left-right --merge
+
+add `-p` to get just the diffs to the file that ended up in conflict
 
 ### Related Maintenance
 - !! remove a non-empty (.git) directory with all contents
