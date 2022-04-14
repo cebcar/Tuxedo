@@ -82,5 +82,5 @@ git core.attributesfile:
 > git revert -m 1 &lt;merge-commit-hash&gt;
 
 ### Related Maintenance
-- remove a non-empty (.git) directory with all contents
-> rm -rf <dirname>
+- !! remove a non-empty (.git) directory with all contents
+> rm --recursive --force &lt;dirname&gt;
