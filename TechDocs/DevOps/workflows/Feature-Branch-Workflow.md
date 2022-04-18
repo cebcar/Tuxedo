@@ -4,7 +4,7 @@
   - review/cleanup branches(`gsb`) and stashes; review log
   - ***Update Branches***
   - create new working branch ~~ | or | switch to existing branch~~
-  - push: `git push -u origin <wb>`<br/><br/>
+  - push: `git push --upstream origin <wb>`<br/><br/>
 
 - until working branch work complete {
   - until **push Main** {
@@ -17,19 +17,17 @@
           - while **cache** {
             - test / code / test
             - diff local changes
-            - save all (ocS); stage as indicated
+            - save all; stage as indicated
           - } **cache**
           - ~~Inspect~~
-          - diff with original
+          - show staged changes
         - } **commit**: verify target branch; commit changes
 
       - } **push branch**
 <br/><br/>
     - ***Update Branches***
-    - ~~(*Pull Request goes here*)~~
-    - ~~***Update Branches***~~
     - } **merge to `main`** *merge &lt;wb&gt; into main line of development*
-      - checkout &lt;wb&gt;; review repo, branches, status (`gsb`)
+      - checkout &lt;wb&gt;; `gsb`; review repo, branches, status
       - *preview merge*: `difftool main`
       - `checkout main; merge --edit --no-ff <wb>`<br><br>
     - } **merge**
@@ -37,10 +35,14 @@
 - } **Branch**
 
 #### Update Branches
-- review git repo, branches, status (`gsb`)
+- `gsb`: review git repo, branches, status
 - checkout main; fetch
 - if changes:
-  - on main: diff; commit
-  - `checkout <wb>; difftool main; merge --edit --no-ff main; push`
+  - *update local main with fetched changes*: Atom: commit
+  - *verify local and remote main now match*: `diff main origin/main`
+  - *update local and remote &lt;wb&gt; from main*:
+    - `checkout <wb>; difftool main; merge --edit --no-ff main; push`
+  - *update local and remote main with our changes*:
+    - `checkout main; difftool <wb>; merge --edit --no-ff <wb>; push`
 
 <button onclick="window.print()">Print Button</button>

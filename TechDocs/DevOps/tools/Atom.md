@@ -1,5 +1,20 @@
 # Atom
 
+## Atom difftool
+Whitespace changes may not be clear from Atom's automatic commit diff display.
+Use another tool (FileMerge works) to find out what's going on.
+
+## Policies
+
+### Git Management with Atom and iTerm2
+- Operations on a single branch,  are handled within Atom.
+  - includes
+    - create local branch with remote tracking branch
+    - commit, including diff
+    - push branch to its remote repository
+- All merging, along with its safety protocols, is handled using iTerm2.
+- Most troubleshooting is normally handled within iTerm2.
+
 ## > Configuring Atom <
 
 - git config
@@ -9,7 +24,6 @@
 
 [script](./#script)<br>
 [tree-view](./#tree-view)<br>
-[git-merge](#./git-merge)<br>
 
 ## script
 *initially installed*
