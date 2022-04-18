@@ -85,7 +85,7 @@ git core.attributesfile:
 - Revert just-committed merge
 > git revert -m 1 &lt;merge-commit-hash&gt;
 
-- **diff3**
+- #### diff3
 We use the `diff3` style of conflict markers
 - shows all 4 of before/after, ours/theirs
 > git config merge.conflictstyle diff3
