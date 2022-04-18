@@ -85,11 +85,6 @@ git core.attributesfile:
 - Revert just-committed merge
 > git revert -m 1 &lt;merge-commit-hash&gt;
 
-### Directories
-#### remove non-empty directory with all contents
-```shell
-rm -rf <dirname>
-```
 - **diff3**
 We use the `diff3` style of conflict markers
 - shows all 4 of before/after, ours/theirs
