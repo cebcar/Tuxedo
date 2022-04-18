@@ -90,3 +90,28 @@ git core.attributesfile:
 ```shell
 rm -rf <dirname>
 ```
+- **diff3**
+We use the `diff3` style of conflict markers
+- shows all 4 of before/after, ours/theirs
+> git config merge.conflictstyle diff3
+
+  sample output:
+  ```plaintext
+  <<<<<<< ours
+    puts 'hola world'
+  ||||||| base
+    puts 'hello world'
+  ======
+    puts 'hello mundo'
+  >>>>>>> theirs
+  ```
+
+- show the commits in either side or conflict
+Show the commits in either side of the merge that touches a file that’s currently conflicted
+> git log --oneline --left-right --merge
+
+add `-p` to get just the diffs to the file that ended up in conflict
+
+### Related Maintenance
+- !! remove a non-empty (.git) directory with all contents
+> rm --recursive --force &lt;dirname&gt;
