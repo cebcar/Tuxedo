@@ -4,7 +4,7 @@
 
 We use Homebrew to install software on macOS.
 
-To install a package, determine package name by searching at Homebrew's home page [Brew](brew.sh).
+To install a package, find package name by searching at Homebrew's home page [Brew](brew.sh).
 Then:
 > brew install &lt;packagename&gt;
 
