@@ -31,21 +31,24 @@ git core.attributesfile:
 
 ## Git Tasks
 
-### Working with Remote
-#### Push branch to upstream
+### Remotes
+- Push branch to upstream
 > git push --set-upstream (-u) origin &lt;branch&gt;
 
-### Tagging
-#### Tag
-- on clean main branch:
-  - create annotated tag (requires comment)
-  > git tag -a &lt;tagName&gt; -m &lt;comment&gt;
+### Tags
+- create annotated tag:
+> git tag -a &lt;tagName&gt; -m &lt;comment&gt;
 
 ### Branches
-#### Push Remote Branch
+- Push Remote Branch
 > git push --set-upstream (-u) origin &lt;branch&gt;
-#### list branches sorted by date
+
+- list branches sorted by date
 > git for-each-ref --sort=committerdate refs/heads/ --format='%(committerdate:short) %(refname:short)'
+
+### Commits
+- show message for specified commit
+> git log --format=%B -n 1 &lt;hash&gt;
 
 ### Rebase
 - reapply commits on top of another base tip
@@ -54,7 +57,7 @@ git core.attributesfile:
 > git rebase -i (--interactive)
 
 ### Merge
-#### Revert just-committed merge
+- Revert just-committed merge
 > git revert -m 1 &lt;merge-commit-hash&gt;
 
 ### Directories
