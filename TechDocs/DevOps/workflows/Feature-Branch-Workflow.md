@@ -26,8 +26,6 @@
       - } **push branch**
 <br/><br/>
     - ***Update Branches***
-    - ~~(*Pull Request goes here*)~~
-    - ~~***Update Branches***~~
     - } **merge to `main`** *merge &lt;wb&gt; into main line of development*
       - checkout &lt;wb&gt;; review repo, branches, status (`gsb`)
       - *preview merge*: `difftool main`
