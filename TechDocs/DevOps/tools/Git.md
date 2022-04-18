@@ -50,6 +50,31 @@ git core.attributesfile:
 - show message for specified commit
 > git log --format=%B -n 1 &lt;hash&gt;
 
+### Stashes
+- stash away the changes in a working directory
+> git stash [push -m message]
+
+- list stashes; also shows '@{n}' argument for use below
+> git stash list
+
+- apply stash on top of the current working tree
+> git stash apply '@{n}'
+
+- show a stash
+> git stash show [stash@{n}]
+
+- drop a stash
+> git stash drop [stash@{n}]
+
+- stash selectively (cycle through available hunks)
+> git stash [push] --patch [-m]
+
+- create new branch from stash
+> git stash branch &lt;branchname&gt;<br>
+
+  - useful if `git stash apply` fails due to too many changes in branch
+  - creates new branch from parent of original stash
+
 ### Rebase
 - reapply commits on top of another base tip
 > git rebase
