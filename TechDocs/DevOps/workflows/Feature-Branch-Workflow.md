@@ -20,7 +20,7 @@
             - save all; stage as indicated
           - } **cache**
           - ~~Inspect~~
-          - diff with original
+          - show staged changes
         - } **commit**: verify target branch; commit changes
 
       - } **push branch**
@@ -38,7 +38,11 @@
 - `gsb`: review git repo, branches, status
 - checkout main; fetch
 - if changes:
-  - update local main: `diff; commit; push`
-  - `checkout <wb>; difftool main; merge --edit --no-ff main; push`
+  - *update local main with fetched changes*: Atom: commit
+  - *verify local and remote main now match*: `diff main origin/main`
+  - *update local and remote &lt;wb&gt; from main*:
+    - `checkout <wb>; difftool main; merge --edit --no-ff main; push`
+  - *update local and remote main with our changes*:
+    - `checkout main; difftool <wb>; merge --edit --no-ff <wb>; push`
 
 <button onclick="window.print()">Print Button</button>
