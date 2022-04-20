@@ -27,7 +27,7 @@
 <br/><br/>
     - ***Update Branches***
     - } **merge to `main`** *merge &lt;wb&gt; into main line of development*
-      - checkout &lt;wb&gt;; `gsb`; review repo, branches, status
+      - checkout &lt;wb&gt;; `gsb`: review repo, branches, status
       - *preview merge*: `difftool main`
       - `checkout main; merge --edit --no-ff <wb>`<br><br>
     - } **merge**
