@@ -7,7 +7,7 @@
   **Critical Data**: <br/>
   **Source**: Xcode application<br/>
   **Installation**: install Xcode; create alias at ~/Applications/Utilities<br/>
-  
+
 ### FileMerge **Configuration**: %<br/>
 ### FileMerge **Customization &amp; Automation**: %<br/>
 ### FileMerge **Shortcuts**: <br/>
@@ -36,5 +36,5 @@ sometimes appears.
 
 from search for "2020-12-09 15:13:50.088 FileMerge\[43143:3437254\] Incorrect NSStringEncoding value 0x0000 detected. Assuming NSASCIIStringEncoding. Will stop this compatibility mapping behavior in the near future.":
 
-Problem is not limited to FilMerge.
+Problem is not limited to FileMerge.
 Apparently, turning Wi-Fi off and on again will clear it.
