@@ -14,11 +14,11 @@
         - ***Update Branches***
         - verify matching active branch
         - while **commit** {
-          - while **cache** {
+          - while **stage** {
             - test / code / test
             - diff local changes
             - save all; stage as indicated
-          - } **cache**
+          - } **stage**
           - ~~Inspect~~
           - show staged changes
         - } **commit**: verify target branch; commit changes
@@ -31,7 +31,9 @@
       - *preview merge*: `difftool main`
       - `checkout main; merge --edit --no-ff <wb>`<br><br>
     - } **merge**
-  - } **push Main**
+  - } **push main**
+    - push main<br><br>
+
 - } **Branch**
 
 #### Update Branches
