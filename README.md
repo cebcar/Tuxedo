@@ -1,2 +1,2 @@
 # Tuxedo
-learning resources and activities for myself and my grandchaaildren
+learning resources and activities for myself and my grandchildren
