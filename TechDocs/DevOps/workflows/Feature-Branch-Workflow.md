@@ -21,18 +21,16 @@
           - } **stage**
           - ~~Inspect~~
           - show staged changes
-        - } **commit**: verify target branch; commit changes
+        - } **commit |** verify target branch; commit changes<br><br>
 
-      - } **push branch**
-<br/><br/>
+      - } **push branch |** on &lt;wb&gt;: `git push`<br/><br/>
     - ***Update Branches***
     - } **merge to `main`** *merge &lt;wb&gt; into main line of development*
       - checkout &lt;wb&gt;; `gsb`: review repo, branches, status
       - *preview merge*: `difftool main`
-      - `checkout main; merge --edit --no-ff <wb>`<br><br>
-    - } **merge**
-  - } **push main**
-    - push main<br><br>
+    - } **merge |** `checkout main; merge --edit --no-ff <wb>`<br><br>
+
+  - } **push main |** on `main`: `git push`<br><br>
 
 - } **Branch**
 
