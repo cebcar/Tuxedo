@@ -58,7 +58,7 @@ We use primarily single-repository workspaces
 - to select Repo Project(s) shown on the Workspace Board display:
   - use either
     - `Repos` button on the left end of the buttons bar, or
-    - Project popup at the top left of the Workspace Board 
+    - Project popup at the top left of the Workspace Board
   - to select Repo Projects to add or remove<br/><br/>
 
 #### Create Issue in a Repo Project

@@ -16,7 +16,7 @@ shell tool @ /usr/bin/git<br/>
   !.gitignore
   .cebcar
 ```
-- then use [gitignore.io](http://gitignore.io) to add additional items, including macos and JetBrains
+- then use [gitignore.io](http://gitignore.io) to add additional items, including macos
 
 #### core.attributesfile
 git core.attributesfile:
@@ -50,8 +50,13 @@ git core.attributesfile:
 - show message for specified commit
 > git log --format=%B -n 1 &lt;hash&gt;
 
-- ..squash commits.. (TEST and expand)
-> git rebase --interactive HEAD~n
+- amend a commit
+  - if changing content, make desired changes first; then
+  > git amend
+  > git commit --amend [--no-edit]<br><br>
+    - edit commit message if indicated
+<!-- TODO ..squash commits.. (TEST and expand) -->
+<!-- > git rebase --interactive HEAD~n -->
 
 ### Stashes
 - stash away the changes in a working directory
@@ -66,6 +71,13 @@ git core.attributesfile:
 - show a stash
 > git stash show [stash@{n}]
 
+- split commit(s)
+> git stash --patch [stash@{n}]<br>
+
+  - uses "Stash this hunk [y,n,q,a,d,/,e,?]?" to cycle through available hunks
+  - can be used to split a bunch of work into atomic commits
+<br><br>
+
 - drop a stash
 > git stash drop [stash@{n}]
 
@@ -75,15 +87,20 @@ git core.attributesfile:
 - create new branch from stash
 > git stash branch &lt;branchname&gt;<br>
 
-  - useful if `git stash apply` fails due to too many changes in branch
   - creates new branch from parent of original stash
+  - also useful if `git stash apply` fails due to too many changes in branch
+
+### Undo/Redo
+- discard changes since a specified commit
+> git reset --hard <commit>
 
 ### Rebase
-- reapply commits on top of another base tip
-> git rebase
-- edit list of the commits before rebasing; can also be used to split commits
-> git rebase -i (--interactive)
+- rebase: reapply commits on top of another base tip
+  > git rebase <commit>
+  - to edit list of the commits before rebasing; can also be used to split commits
+  > git rebase -i (--interactive) <commit>
 
+  - for conflicts: add `-p` to get just the diffs to the file that ended up in conflict
 ### Merge
 - see also [Git Tools - Advanced Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 
@@ -110,7 +127,8 @@ We use the `diff3` style of conflict markers
 Show the commits in either side of the merge that touches a file that’s currently conflicted
 > git log --oneline --left-right --merge
 
-add `-p` to get just the diffs to the file that ended up in conflict
+### Rewriting History
+[Git Book - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
 ### Related Maintenance
 - !! remove a non-empty (.git) directory with all contents
