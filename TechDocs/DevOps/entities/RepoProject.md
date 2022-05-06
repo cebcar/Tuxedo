@@ -39,7 +39,7 @@ Todo items can be reviewed and addressed by searching for todo tag, without seco
 ```plaintext
 NOTE:
 IntelliJ supports embedding formatted TODO comments in document
-- we and, per Stack Ovbrflow, others have tried and failed to use this feature for Markdown  
+- we and, per Stack Overflow, others have tried and failed to use this feature for Markdown  
   - it may work only for some languages including Java/Kotlin
 ```
 <br/>
