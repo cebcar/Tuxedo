@@ -131,6 +131,10 @@ add `-p` to get just the diffs to the file that ended up in conflict
 ### Rewriting History
 [Git Book - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
 
+#### Undo/Redo
+- discard changes since a specified commit
+> git reset --hard <commit>
+
 ### Related Maintenance
 - !! remove a non-empty (.git) directory with all contents
 > rm --recursive --force &lt;dirname&gt;
