@@ -97,10 +97,9 @@ git core.attributesfile:
 ### Rebase
 - rebase: reapply commits on top of another base tip
   > git rebase <commit>
-  - to edit list of the commits before rebasing; can also be used to split commits
+  - edit list of the commits before rebasing; can also be used to split commits
   > git rebase -i (--interactive) <commit>
 
-  - for conflicts: add `-p` to get just the diffs to the file that ended up in conflict
 ### Merge
 - see also [Git Tools - Advanced Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 
@@ -126,6 +125,8 @@ We use the `diff3` style of conflict markers
 - show the commits in either side or conflict
 Show the commits in either side of the merge that touches a file that’s currently conflicted
 > git log --oneline --left-right --merge
+
+add `-p` to get just the diffs to the file that ended up in conflict
 
 ### Rewriting History
 [Git Book - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History)
