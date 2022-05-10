@@ -13,11 +13,10 @@ WebApp @ https://github.com<br/>
 GitHub : ‘cebcar’ : New
 - supply repo Name and Description
 - make repository “Public”
-- do not add .gitignore
 - initialize repo with a README
 - add license, normally MIT <br><br>
 
-- Merge
+- merge
   - [+] Allow merge commits
   - [-] Allow squash merging
   - [-] Allow rebase merging <br><br>
@@ -26,6 +25,15 @@ GitHub : ‘cebcar’ : New
   - turn off:
     - Projects; we use ZenHub projects
     - Preserve this repository; intended for long-term preservation of shared open-source code <br><br>
+
+- .gitignore
+  - do not ignore .gitignore
+    >!.gitignore
+  - ignore folder .cebcar
+    > .cebcar
+  - [.gitignore](https://cebcar.w3spaces.com/TechDocs/tools/Git.md#gitignore): add content for macOS
+
+- README.md: check header
 
 ### OAuth Tokens
 *from [Access Tokens @ oauth.com](https://www.oauth.com/oauth2-servers/access-tokens/)*
